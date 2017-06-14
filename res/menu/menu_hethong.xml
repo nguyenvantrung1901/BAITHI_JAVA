@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/menuNhanVien"
+        android:icon="@drawable/ic_menu_allfriends"
+        android:title="@string/menuItemNhanVien"
+        android:showAsAction="ifRoom|withText"
+        />
+
+    <item 
+        android:id="@+id/menuPhongBan"
+        android:icon="@drawable/ic_menu_home"
+        android:title="@string/menuItemPhongBan"
+        android:showAsAction="ifRoom|withText"
+        />
+    <item 
+        android:id="@+id/menuHeThong"
+        android:icon="@drawable/ic_menu_preferences"
+        android:title="@string/menuItemHeThong"
+        android:showAsAction="ifRoom|withText"
+        />
+    <item 
+        android:id="@+id/menuLienHe"
+        android:icon="@drawable/ic_menu_answer_call"
+        android:title="@string/menuItemLienHe"
+        android:showAsAction="ifRoom|withText"
+        />
+</menu>
